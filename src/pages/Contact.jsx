@@ -7,7 +7,7 @@ export default function Contact() {
         <div className="wrap">
           <span className="eyebrow">Comms</span>
           <h1>Contact</h1>
-          <p className="lede">Open a channel directly — every inquiry goes straight to SpecOps, no intermediaries.</p>
+          <p className="lede">Open a channel directly: every inquiry goes straight to SpecOps, no intermediaries.</p>
         </div>
       </div>
 
@@ -16,7 +16,7 @@ export default function Contact() {
           <div>
             <span className="eyebrow">Direct Line</span>
             <h2>Email</h2>
-            <p>The fastest way to reach SpecOps Security. Include a short description of your organization and what you're looking to have tested — scope, timeline, and a proposal will follow.</p>
+            <p>The fastest way to reach SpecOps Security. Include a short description of your organization and what you're looking to have tested. Scope, timeline, and a proposal will follow.</p>
             <a className="btn" href="mailto:ops@yourdomain.com">ops@yourdomain.com</a>
           </div>
           <div className="dossier">
@@ -24,8 +24,8 @@ export default function Contact() {
             <span className="mono">Response Time</span>
             <h3>What to expect</h3>
             <ul className="plain">
-              <li>Replies typically within 1–2 business days</li>
-              <li>Based in Canada — remote and on-site engagements available</li>
+              <li>Replies typically within 1 to 2 business days</li>
+              <li>Based in Canada: remote and on-site engagements available</li>
               <li>All inquiries handled directly, no account managers</li>
             </ul>
           </div>

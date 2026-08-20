@@ -11,19 +11,19 @@ const SERVICES = [
   {
     n: '02',
     title: 'Red Team Assessments',
-    body: 'Objective-based adversary simulation testing detection and response, not just exploitability. Built around a defined goal — data access, domain admin, physical entry — rather than a checklist.',
+    body: 'Objective-based adversary simulation testing detection and response, not just exploitability. Built around a defined goal, such as data access, domain admin, or physical entry, rather than a checklist.',
     tags: ['Adversary Simulation', 'Active Directory'],
   },
   {
     n: '03',
     title: 'Social Engineering & Phishing Simulation',
-    body: 'Human-layer testing informed by a background in sociology — realistic pretexts, phishing campaigns, and vishing exercises that measure how your people respond under pressure.',
+    body: 'Human-layer testing informed by a background in sociology: realistic pretexts, phishing campaigns, and vishing exercises that measure how your people respond under pressure.',
     tags: ['Phishing', 'Vishing', 'Pretexting'],
   },
   {
     n: '04',
     title: 'OSINT & Attack Surface Recon',
-    body: 'Open-source reconnaissance to map what an attacker can learn about your organization before they ever send a payload — exposed infrastructure, leaked credentials, and public employee footprint.',
+    body: 'Open-source reconnaissance to map what an attacker can learn about your organization before they ever send a payload: exposed infrastructure, leaked credentials, and public employee footprint.',
     tags: ['Recon', 'Exposure Mapping'],
   },
   {
@@ -35,7 +35,7 @@ const SERVICES = [
   {
     n: '06',
     title: 'Remediation Support',
-    body: "Post-engagement support validating fixes and answering your team's questions — testing isn't useful if the findings sit in a PDF.",
+    body: "Post-engagement support validating fixes and answering your team's questions. Testing isn't useful if the findings sit in a PDF.",
     tags: ['Retesting', 'Advisory'],
   },
 ]
@@ -73,7 +73,7 @@ export default function Services() {
           <div>
             <span className="eyebrow">Process</span>
             <h2>How an engagement runs</h2>
-            <p>Every project follows the same four-stage methodology — recon, access, analysis, reporting — scoped and confirmed with you before any testing begins, and closed out with a walkthrough of findings, not just a document handoff.</p>
+            <p>Every project follows the same four-stage methodology (recon, access, analysis, reporting), scoped and confirmed with you before any testing begins, and closed out with a walkthrough of findings, not just a document handoff.</p>
           </div>
           <div className="dossier">
             <span className="dossier-stamp">Note</span>

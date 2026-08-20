@@ -17,7 +17,7 @@ export default function About() {
           <div>
             <span className="eyebrow">Origin</span>
             <h2>Why sociology, in security?</h2>
-            <p>Most offensive security findings fail for the same reason: nobody outside the security team can act on them. SpecOps was built on the idea that a technically rigorous engagement is only half the job — the other half is communicating it clearly enough that a non-technical stakeholder makes the right call.</p>
+            <p>Most offensive security findings fail for the same reason: nobody outside the security team can act on them. SpecOps was built on the idea that a technically rigorous engagement is only half the job. The other half is communicating it clearly enough that a non-technical stakeholder makes the right call.</p>
             <p>That instinct comes from a background in sociology, applied directly to two parts of the work that most firms treat as an afterthought: social engineering assessments that account for real human behavior, and reporting written to be understood, not just technically correct.</p>
           </div>
           <div className="dossier">
@@ -25,7 +25,7 @@ export default function About() {
             <span className="mono">Operator Background</span>
             <h3>Foundation</h3>
             <ul className="plain">
-              <li>Background in sociology — applied to client communication &amp; social engineering</li>
+              <li>Background in sociology: applied to client communication &amp; social engineering</li>
               <li>Hands-on technical training: TryHackMe, HackTheBox</li>
               <li>Certification roadmap toward red team specialization</li>
               <li>Based in Canada</li>
@@ -38,7 +38,7 @@ export default function About() {
         <div className="wrap section-head">
           <span className="eyebrow">Direction</span>
           <h2>Where this is headed</h2>
-          <p>SpecOps is being built deliberately, one certification and one engagement at a time, toward full red team capability — adversary simulation that tests people, process, and technology together, not just infrastructure. The certification roadmap on the next page is public because the goal is to be transparent about capability, not to oversell it.</p>
+          <p>SpecOps is being built deliberately, one certification and one engagement at a time, toward full red team capability: adversary simulation that tests people, process, and technology together, not just infrastructure. The certification roadmap on the next page is public because the goal is to be transparent about capability, not to oversell it.</p>
         </div>
       </Reveal>
 

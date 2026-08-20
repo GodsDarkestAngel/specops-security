@@ -18,7 +18,7 @@ export default function Blog() {
           <div className="card-grid" style={{ background: 'var(--line)' }}>
             {posts.map((p) => (
               <Link className="card card-link" to={`/blog/${p.slug}`} key={p.slug} style={{ color: 'inherit' }}>
-                <span className="mono">Field Note — {p.number}</span>
+                <span className="mono">Field Note #{p.number}</span>
                 <h3>{p.title}</h3>
                 <p>{p.excerpt}</p>
                 <span className="status-line">Read →</span>

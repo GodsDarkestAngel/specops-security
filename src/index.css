@@ -1,5 +1,5 @@
 /* =========================================================
-   SPECOPS SECURITY — SHARED STYLESHEET
+   SPECOPS SECURITY: SHARED STYLESHEET
    Direction: field-ops dossier. Dark olive-black, stencil
    headlines, mono data labels, topographic contour texture,
    targeting-bracket hover state, redaction-reveal headline.
@@ -398,7 +398,7 @@ ul.plain li { padding: 10px 0; border-bottom: 1px solid var(--line-dim); font-si
 .status-line { font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--olive-light); }
 
 /* =========================================================
-   REACT APP ADDITIONS — page transitions, route scan-line,
+   REACT APP ADDITIONS: page transitions, route scan-line,
    active-link underline, skeleton/loading accents.
    ========================================================= */
 

@@ -14,11 +14,11 @@ export default function Home() {
           </div>
 
           <p className="lede">
-            Human-driven penetration testing and red team assessments — for teams who've
+            Human-driven penetration testing and red team assessments, for teams who've
             outgrown a vulnerability scanner and want to know how they'd actually be breached.
           </p>
           <a className="btn" href="mailto:ops@yourdomain.com">
-            Open a Channel — ops@yourdomain.com
+            Open a Channel: ops@yourdomain.com
           </a>
         </div>
       </section>
@@ -30,7 +30,7 @@ export default function Home() {
           <p>
             Neither do we. SpecOps Security is a boutique offensive security operation built
             around manual testing, adversary tradecraft, and reporting that a non-technical
-            stakeholder can actually act on. Every engagement is run hands-on — no outsourced
+            stakeholder can actually act on. Every engagement is run hands-on: no outsourced
             testers, no templated findings.
           </p>
         </div>
@@ -42,22 +42,22 @@ export default function Home() {
         </div>
         <div className="method-strip wrap" style={{ paddingLeft: 0, paddingRight: 0 }}>
           <div className="method-step">
-            <span className="mono">01 — Recon</span>
+            <span className="mono">01: Recon</span>
             <h3>Recon</h3>
             <p>Map the real attack surface: infrastructure, applications, exposed people.</p>
           </div>
           <div className="method-step">
-            <span className="mono">02 — Access</span>
+            <span className="mono">02: Access</span>
             <h3>Access</h3>
             <p>Exploit what's actually exploitable, the way a real adversary would.</p>
           </div>
           <div className="method-step">
-            <span className="mono">03 — Analyze</span>
+            <span className="mono">03: Analyze</span>
             <h3>Analyze</h3>
             <p>Chain findings into real business impact, not a raw CVE dump.</p>
           </div>
           <div className="method-step">
-            <span className="mono">04 — Report</span>
+            <span className="mono">04: Report</span>
             <h3>Report</h3>
             <p>Plain-language findings your team can prioritize and fix.</p>
           </div>
@@ -80,7 +80,7 @@ export default function Home() {
           <div className="card">
             <span className="mono">Service</span>
             <h3>Red Team Assessments</h3>
-            <p>Full adversary simulation against your people, processes, and technology — objective-based, not checklist-based.</p>
+            <p>Full adversary simulation against your people, processes, and technology: objective-based, not checklist-based.</p>
           </div>
           <div className="card">
             <span className="mono">Service</span>
@@ -99,7 +99,7 @@ export default function Home() {
             <span className="eyebrow">Why SpecOps</span>
             <h2>A founder-led operation, not a ticket queue.</h2>
             <p>
-              You work directly with the person testing your systems — not an account manager
+              You work directly with the person testing your systems, not an account manager
               relaying findings from someone you'll never speak to. Every report is written to
               be read by both your engineers and your board.
             </p>
@@ -114,9 +114,9 @@ export default function Home() {
             <span className="mono">Operator Status</span>
             <h3>In Active Training</h3>
             <ul className="plain">
-              <li>Based in Canada — remote &amp; on-site engagements</li>
+              <li>Based in Canada: remote &amp; on-site engagements</li>
               <li>Hands-on practice: TryHackMe, HackTheBox</li>
-              <li>Certification track underway — see Certifications</li>
+              <li>Certification track underway: see Certifications</li>
             </ul>
           </div>
         </div>

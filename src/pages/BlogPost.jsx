@@ -19,7 +19,7 @@ export default function BlogPost() {
     <>
       <div className="page-header contour-bg">
         <div className="wrap">
-          <span className="eyebrow">Field Note — {post.number}</span>
+          <span className="eyebrow">Field Note #{post.number}</span>
           <h1>{post.title}</h1>
           <p className="lede">{post.lede}</p>
         </div>
