@@ -17,8 +17,8 @@ export default function Home() {
             Human-driven penetration testing and red team assessments, for teams who've
             outgrown a vulnerability scanner and want to know how they'd actually be breached.
           </p>
-          <a className="btn" href="mailto:ops@yourdomain.com">
-            Open a Channel: ops@yourdomain.com
+          <a className="btn" href="mailto:marco@specopssecurity.com">
+            Open a Channel: marco@specopssecurity.com
           </a>
         </div>
       </section>

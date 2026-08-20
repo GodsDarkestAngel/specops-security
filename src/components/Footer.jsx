@@ -19,7 +19,7 @@ export default function Footer() {
         </div>
         <div className="footer-bottom">
           <span>© 2026 SpecOps Security</span>
-          <span>ops@yourdomain.com</span>
+          <span>marco@specopssecurity.com</span>
         </div>
       </div>
     </footer>

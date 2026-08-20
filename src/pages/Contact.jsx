@@ -17,7 +17,7 @@ export default function Contact() {
             <span className="eyebrow">Direct Line</span>
             <h2>Email</h2>
             <p>The fastest way to reach SpecOps Security. Include a short description of your organization and what you're looking to have tested. Scope, timeline, and a proposal will follow.</p>
-            <a className="btn" href="mailto:ops@yourdomain.com">ops@yourdomain.com</a>
+            <a className="btn" href="mailto:marco@specopssecurity.com">marco@specopssecurity.com</a>
           </div>
           <div className="dossier">
             <span className="dossier-stamp">Note</span>
