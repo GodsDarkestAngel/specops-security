@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>SpecOps Security</title>
+<script>
+  // GitHub Pages has no server-side routing, so a hard refresh or a
+  // direct link to e.g. /services returns this 404 page instead of
+  // the app. This script repackages the intended path into a query
+  // string and redirects to the real index.html, which restores it
+  // (see src/main.jsx) before React Router renders. Based on the
+  // widely-used spa-github-pages pattern (rafgraph/spa-github-pages).
+  var path = window.location.pathname + window.location.search;
+  window.location.replace('/?p=' + encodeURIComponent(path) + window.location.hash);
+</script>
+</head>
+<body></body>
+</html>
