@@ -1,15 +1,28 @@
 import { useEffect, useState } from 'react'
 
+const formatter = new Intl.DateTimeFormat('en-US', {
+  timeZone: 'America/New_York',
+  hour: '2-digit',
+  minute: '2-digit',
+  second: '2-digit',
+  hour12: false,
+  timeZoneName: 'short',
+})
+
+function formatEasternTime(date) {
+  const parts = formatter.formatToParts(date)
+  const lookup = Object.fromEntries(parts.map((p) => [p.type, p.value]))
+  // "24" from hour12:false midnight edge case -> normalize to "00"
+  const hh = lookup.hour === '24' ? '00' : lookup.hour
+  return `${hh}:${lookup.minute}:${lookup.second} ${lookup.timeZoneName}`
+}
+
 export default function useHudClock() {
-  const [time, setTime] = useState('--:--:-- UTC')
+  const [time, setTime] = useState('--:--:-- ET')
 
   useEffect(() => {
     function tick() {
-      const now = new Date()
-      const hh = String(now.getUTCHours()).padStart(2, '0')
-      const mm = String(now.getUTCMinutes()).padStart(2, '0')
-      const ss = String(now.getUTCSeconds()).padStart(2, '0')
-      setTime(`${hh}:${mm}:${ss} UTC`)
+      setTime(formatEasternTime(new Date()))
     }
     tick()
     const id = setInterval(tick, 1000)
