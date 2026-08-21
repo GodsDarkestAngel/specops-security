@@ -16,9 +16,8 @@ export default function About() {
         <div className="wrap two-col">
           <div>
             <span className="eyebrow">Origin</span>
-            <h2>Why sociology, in security?</h2>
-            <p>Most offensive security findings fail for the same reason: nobody outside the security team can act on them. SpecOps was built on the idea that a technically rigorous engagement is only half the job. The other half is communicating it clearly enough that a non-technical stakeholder makes the right call.</p>
-            <p>That instinct comes from a background in sociology, applied directly to two parts of the work that most firms treat as an afterthought: social engineering assessments that account for real human behavior, and reporting written to be understood, not just technically correct.</p>
+            <p>Most offensive security findings fail for the same reason: nobody outside the security team can act on them. Technical rigor is only half the job. The other half is making the risk clear enough that a non-technical stakeholder can make the right call on it.</p>
+            <p>That's where a background in sociology comes in. It shapes two parts of the work most firms treat as an afterthought: social engineering assessments grounded in how people actually behave, and reports written to be understood, not just technically correct.</p>
           </div>
           <div className="dossier">
             <span className="dossier-stamp">Profile</span>
